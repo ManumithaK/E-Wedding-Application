@@ -1,0 +1,13 @@
+.slider-container{
+    margin-top: 2.5rem;
+}
+.image-slider {
+    height: 350px;
+  }
+  
+.carousel-image{
+    max-height: 10%;
+}
+img{
+    height:500px;
+}

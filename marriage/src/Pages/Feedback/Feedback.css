@@ -1,0 +1,36 @@
+.feedback-container{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+}
+.feedback-message{
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: x-large;
+}
+.feedback-textarea{
+    margin-top: 2%;
+}
+.feedback-textarea>textarea{
+    width: 80%;
+    resize: vertical;
+    border: 1px solid lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+
+}
+.feedback-textarea>textarea::placeholder{
+    font-size: medium;
+}
+.Feedback-Submit-button{
+    color: white !important;
+    background-color: black !important;
+    width: 150px !important;
+    margin-top: 3%;
+    justify-content: start;
+}

@@ -1,0 +1,99 @@
+/* Fonts */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    height: 200px; /* Increased height for more impact */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; /* Changed text color to white for better contrast */
+    font-size: 10px; /* Increased font size for better readability */
+    text-align: center; /* Center-align text */
+    margin-top:5%;
+}
+
+.form-container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px; /* Increased gap for better spacing */
+    background: linear-gradient(45deg,#5c4db1, #ff69b4); /* Gradient background with mixed colors */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.item {
+    gap: 10px;
+    display: grid;
+    color:white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: calc(100% - 16px); /* Adjusted width to account for padding */
+    padding: 12px; /* Increased padding for better touch interaction */
+    margin-top: 10px; /* Adjusted margin for better spacing */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    border: 2px solid #ff95e8; /* Changed border color to pink */
+    border-radius: 8px; /* Increased border radius for a softer look */
+    box-sizing: border-box;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="button"] {
+    background-color: #f657a7;
+    color: white;
+    padding: 10px 20px; /* Decreased padding for smaller size */
+    border: none;
+    border-radius: 10px; /* Decreased border radius for a smaller look */
+    cursor: pointer;
+    width: auto; /* Let the width be determined by content */
+    font-size: 14px; /* Decreased font size for smaller text */
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+/* Centering buttons */
+.registration-buttons {
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    max-width: 300px;
+}
+
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+.registration-buttons {
+    margin: auto; /* Center-align buttons */
+    margin-top: 40px; /* Increased top margin for better spacing */
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-between; /* Space evenly between buttons */
+    max-width: 300px; /* Limit width to prevent overflow */
+}
+
+#submit {
+    margin-left: 150%;
+}
+
+#cancel {
+    margin-left: 0%;
+}

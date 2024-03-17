@@ -1,0 +1,29 @@
+.admin-dashboard{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+.admin-dashboard-item{
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20%;
+}
+.Numbers-count{
+    color: lightgray;
+    margin-left: 40%;
+}
+.admin-dashboard-item-title{
+    margin:10% 0;
+}
+.admin-dashboard-item-title>span{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+.visualising-item{
+    color: lightgray;
+    margin-left: 40%;
+}

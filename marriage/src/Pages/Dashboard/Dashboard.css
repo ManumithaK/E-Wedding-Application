@@ -1,0 +1,57 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 150px;
+    column-gap: 10px;
+    margin-top: 0;
+}
+  .dashboard-outer-container{
+    margin-top: 2%;
+  }
+  .grid-item {
+    cursor: pointer;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .small {
+    cursor:default;
+  }
+  .Dashboard-content{
+    width: 95%;
+  }
+  .grid-item-details-img{
+    border-radius: 10px;
+    height: 100px;
+    border: 1px solid black;
+  }
+  .grid-item-details{
+    display: flex;
+    gap: 30px;
+  }
+  .grid-item-details-text{
+    display : grid;
+    text-align: start;
+    margin-top: 10px;
+  }
+  .grid-item-details-text-area{
+    color: palevioletred;
+  }
+  .more-button{
+    margin-top: 30%;
+    cursor: pointer;
+    height: 40px;
+    width:100%;
+    background-color: black;
+    color: white;
+    border-radius: 6%;
+  }
+  .more-button-icon{
+    margin-right: 5%;
+    color: #ffffff;
+  }
+  .category-name{
+    margin-left: 100px;
+    text-align: start;
+    font-weight: bold;
+  }

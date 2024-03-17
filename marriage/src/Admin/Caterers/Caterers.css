@@ -1,0 +1,87 @@
+
+.body {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.templateContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.template {
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded corners */
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.Container {
+  padding: 10px;
+}
+
+.Container p {
+  margin: 5px 0;
+}
+
+/* Style images container */
+.Container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  grid-template-rows: auto auto; /* Auto-sized rows */
+  grid-gap: 10px; /* Adjust the gap between images */
+}
+
+.Container img {
+  width: 100%; /* Make images fill their grid cell */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: Add rounded corners to images */
+  max-height: 200px; /* Increase the maximum height of the images */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.editButton,
+.deleteButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  background-color: #0056b3;
+}
+
+.editButton {
+  margin-right: 5px;
+}
+
+/* Adjust font size and spacing for icons */
+.editButton svg,
+.deleteButton svg {
+  font-size: 18px;
+  margin-right: 5px;
+}
+#adminEditCaterer
+{
+  background-color: rgb(255, 0, 140);
+}
+#adminDelete
+{
+  background-color: rgb(255, 0, 140);
+}
+

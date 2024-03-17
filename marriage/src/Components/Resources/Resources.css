@@ -1,0 +1,75 @@
+.resource {
+    border: 3px solid rgb(245, 235, 235);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.custom-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    height: 170px;
+}
+
+.custom-grid-item {
+    margin: 1.5rem 1rem;
+    height: 120px;
+    width: 200px;
+    background-color: #796565;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.price-capacity {
+    align-items: center !important;
+    margin-left: 2%;
+    display: flex;
+    margin-bottom: 10px;
+    column-gap: 10%;
+}
+
+.resource-capacity,
+.resource-price {
+    text-align: start;
+    display: grid;
+    row-gap: 10px;
+}
+
+.resource-capacity-name,
+.resource-price-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.resource-capacity-details,
+.resource-price-details {
+    color: lightgray;
+    font-weight: 600;
+}
+
+.name-address {
+    margin-top: 10px;
+    display: grid;
+    row-gap: 10px;
+}
+
+.resource-name {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.resource-address {
+    font-weight: 600;
+    color: lightgray;
+}
+
+.reserve-button {
+    margin-left: auto !important;
+    width: 100px !important;
+    float: right;
+    color: black !important;
+    background-color: white !important;
+    border: 2px solid lightgrey !important;
+    border-radius: 20px !important;
+    font-weight: 600;
+}
